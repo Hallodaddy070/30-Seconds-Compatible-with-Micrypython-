@@ -2,7 +2,7 @@
 30 seconds is a game where there are teams of 2 players. One person gets 5 random words and has to describe them to their teammate. Their teammate has to guess what word they are describing. After 30 seconds the amount of words your teammate guessed become points. After typing your points you give the calculator to the next team. The next time it is your turn the roles switch. First to 30 wins.
 
 WARNING:
-
+-
 Because there is no time module on the fx-CG50, I used busy-wait loops to keep track of the time. Those may use alot of battery, but how bad it is is not something I know. This was made for the fx-CG50 so the wait loop probably won't be 30 seconds on other calculators. If you want to change the time so it's 30 seconds on your calculator change n. n = 45652 for ~ 30 seconds on the fx-CG50, the wait() function is quadratic so increasing or decreasing n it makes the time alot longer/shorter. You just have to experiment a little bit.
 
 # How to download
