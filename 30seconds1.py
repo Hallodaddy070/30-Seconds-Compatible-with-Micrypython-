@@ -98,6 +98,7 @@ def show_words():
         print(word)
 
 def wait(seconds):
+  ###################################################################################################################
   timers = seconds*137500
   for _ in range(timers):
     pass
