@@ -3,7 +3,7 @@
 
 WARNING:
 -
-Because there is no time module on the fx-CG50, I used busy-wait loops to keep track of the time. Those may use alot of battery, but how bad it is is not something I know. This was made for the fx-CG50 so the wait loop probably won't be 30 seconds on other calculators. If you want to change the time so it's 30 seconds on your calculator change n. n = 45652 for ~ 30 seconds on the fx-CG50, the wait() function is quadratic so increasing or decreasing n it makes the time alot longer/shorter. You just have to experiment a little bit.
+Because there is no time module on the fx-CG50, I used busy-wait loops to keep track of the time. These may use alot of battery, but how bad it is is not something I know. This was made for the fx-CG50 so the wait loop probably won't be 30 seconds on other calculators. If you want to change the time so it's 30 seconds on your calculator change n. n = 137500 for ~ 30 seconds on the fx-CG50. You have to experiment with it a little bit so it is right on your non fx-CG50 calculator.
 
 # How to download
 After connecting your fx-CG50, paste the file (the one with the highest number is the newest one) beside the other files (not inside any folder, you can paste it inside a folder in the Python app but this is the fastest way.). When you open Python you will see it there, click run to play.
