@@ -2,6 +2,7 @@
 30 seconds is a game where there are teams of 2 players. One person gets 5 random words and has to describe them to their teammate. Their teammate has to guess what word they are describing. After 30 seconds the amount of words your teammate guessed become points. After typing your points you give the calculator to the next team. The next time it is your turn the roles switch. First to 30 wins. Made for fx-CG50, probably functional in other graphing calculators with Micropython.
 
 v2
+
 There were some duplicate words that are now removed, and the word lists get shuffled (extra randomness)when you start the game now. It will stop the same words appearing all the time.
 
 WARNING:
