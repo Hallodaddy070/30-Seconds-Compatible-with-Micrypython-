@@ -3,7 +3,7 @@
 
 v2
 
-There were some duplicate words that are now removed, and the word lists get shuffled (extra randomness)when you start the game now. It will stop the same words appearing all the time.
+There were some duplicate words that are now removed, and the word lists get shuffled (extra randomness) when you start the game now. It will stop the same words appearing all the time.
 
 WARNING:
 -
